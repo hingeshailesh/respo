@@ -96,7 +96,7 @@ footer{
     }
     #main-nav ul li{ 
         display: inline;
-        padding-left: 1em;
+        padding-left: .5em;
     }
     #main-nav a{
         text-decoration: none;
@@ -124,7 +124,7 @@ footer{
     }
     #boxces .box{
         background-color: darkgray;
-        border-radius: 4em;
+        border-radius: .5em;
     }
     #boxces .box img{
         padding-top: 1em;
