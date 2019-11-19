@@ -1,0 +1,150 @@
+/*Global */
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* Header */
+header{
+    background-color: darkorange;
+    color:#ffffff;
+    padding: .1em;
+    border-radius: .3em;
+}
+
+/* Navbar */
+#main-nav{
+    background-color: brown;
+    padding: .1em;
+    border-radius: .3em;
+    margin-bottom: 0;
+}
+#main-nav ul li{ 
+    display: inline; 
+    margin: 1em;  
+}
+#main-nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#showcase{
+    background-image: url('a.jpg');
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 1em;
+}
+#showcase h1{
+   margin-top: 0;
+   padding-top: 140px;
+    
+    font-size: 50px;
+}
+#showcase p{
+    font-size: 30px;
+}
+#boxces{
+ display: grid;
+ margin: 0 auto;
+ grid-template-columns: 1fr 1fr 1fr;
+ text-align: center;
+ grid-gap: 1em;
+}
+#boxces .box{
+    background-color: darkgray;
+    border-radius: 4em;
+}
+#boxces .box img{
+    padding-top: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 1em;
+}
+#boxces .box h3{
+    color: #ffffff;
+}
+footer{
+    background-color: darkorange;
+    padding: .2em;
+    border-radius: .5em;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+@media(max-width:768px) {
+        /* Header */
+    header{
+        background-color: darkorange;
+        color:#ffffff;
+        padding: .1em;
+        border-radius: .3em;
+    }
+
+    /* Navbar */
+    #main-nav{
+        background-color: brown;
+        padding: .1em;
+        border-radius: .3em;
+        margin-bottom: 0;
+    }
+    #main-nav ul li{ 
+        display: inline;
+        padding-left: 1em;
+    }
+    #main-nav a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    #showcase{
+        background-image: url('a.jpg');
+        min-height: 300px;
+        background-size: cover;
+        text-align: center;
+        border-radius: 1em;
+        margin-bottom: 0;
+    }
+    #showcase h1{
+    margin-top: 0;
+    padding-top: 10px;
+        
+        font-size: 50px;
+    }
+    #showcase p{
+        font-size: 30px;
+    }
+    #boxces{
+        display: block;        
+    }
+    #boxces .box{
+        background-color: darkgray;
+        border-radius: 4em;
+    }
+    #boxces .box img{
+        padding-top: 1em;
+        width: 100px;
+        height: 100px;
+        border-radius: 1em;
+    }
+    #boxces .box h3{
+        color: #ffffff;
+    }
+    footer{
+        background-color: darkorange;
+        padding: .2em;
+        border-radius: .5em;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+}
+
